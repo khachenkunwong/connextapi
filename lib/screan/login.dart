@@ -171,7 +171,7 @@ class _LoginState extends State<Login> {
   late Future<List<dynamic>> getmell;
   late Future<String> getmellpubilc;
   late Future<List<dynamic>> getmellpubilcinclass;
-  var _dutylist;
+  // var _dutylist;
   Future<List<dynamic>> getMeall() async {
     data = [
       {
@@ -297,17 +297,17 @@ class _LoginState extends State<Login> {
       // return body.map<MeAll>(MeAll.fromJson).toList();
       // print("body ${body2.runtimeType}");
 
-      for (var dutylist in body) {
-      //   // list ออกมาทั้ง index
-        final _dutylist = MeAll.fromJson(dutylist);
-      //   // Instance of 'MeAll'
-        print(_dutylist);
-      //   // aa = _dutylist.duty!.first.day;
-      //   // print("_dutylist ${aa}");
-      //   setState(() {
-      //     dutylists.add(_dutylist);
-      //   });
-      }
+      // for (var dutylist in body) {
+      // //   // list ออกมาทั้ง index
+      //   final _dutylist = MeAll.fromJson(dutylist);
+      // //   // Instance of 'MeAll'
+      //   print(_dutylist);
+      // //   // aa = _dutylist.duty!.first.day;
+      // //   // print("_dutylist ${aa}");
+      // //   setState(() {
+      // //     dutylists.add(_dutylist);
+      // //   });
+      // }
       // _dutylist = MeAll.fromJson(body);
       // print(_dutylist.runtimeType);
 
